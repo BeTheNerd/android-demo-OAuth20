@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	tools:context=".ItemListActivity">
+
+<WebView
+    android:id="@+id/item_webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+<fragment
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.examplectct.demooauth20.ItemListFragment"
+    android:id="@+id/item_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" />
+
+</LinearLayout>    
